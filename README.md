@@ -1,57 +1,62 @@
 # 🗳️ Elections Management System (EMS)  
 
-The **Elections Management System (EMS)** is a comprehensive Java project, developed using **NetBeans IDE** and **JSwing** for the GUI. It offers a secure, streamlined platform to manage the electoral process efficiently. This project is licensed under the **MIT License**.
+The **Elections Management System (EMS)** is a robust Java project built with **NetBeans IDE** and **JSwing** for the graphical user interface. The system is designed to provide a secure, efficient platform to manage the entire electoral process. This project is licensed under the **MIT License**.
 
 ---
 
 ## 🚀 Project Overview
 
-EMS facilitates the management of elections, serving two primary user roles: **Administrators (Admin)** and **Voters**. Its design ensures seamless execution of various electoral tasks while maintaining transparency and integrity.
+EMS is built to manage elections, supporting two key user roles: **Admin** and **Voter**. Its design ensures smooth handling of electoral processes, offering transparent and efficient election management.
 
 ---
 
 ## 🌟 Key Features
 
 ### 🔑 **Admin Panel**  
-Admins have full control over the system, enabling them to:  
+
+**Default Login Credentials:**  
+- **Username**: admin  
+- **Password**: admin  
+
+Admins have full access to the system and can perform the following actions:  
 
 #### **Voter Management**  
 - **Add Voter**: Register new voters.  
 - **Remove Voter**: Delete voters by constituency.  
-- **Update Data**: Modify voter information.  
+- **Update Data**: Modify voter information.
 
 #### **Candidate Management**  
 - **Add Candidate**: Register candidates by party and constituency.  
-- **Remove Candidate**: Delete candidate entries.  
-- **Update Data**: Edit candidate information.  
+- **Remove Candidate**: Delete candidates.  
+- **Update Data**: Edit candidate details.  
 
 #### **Constituency Management**  
 - **Add Constituency**: Create new NA/PA constituencies.  
-- **Remove Constituency**: Delete existing constituencies.  
+- **Remove Constituency**: Delete constituencies.  
 
 #### **Election News**  
-- **Display News**: Share election-related updates with voters.  
+- **Display News**: Share election updates with voters.
 
 #### **Election Control**  
-- **Start/End Election**: Manage election timeline.  
-- **Validation**: Ensure all constituencies have candidates before starting elections.  
+- **Start/End Election**: Control the election schedule.  
+- **Validation**: Ensure all constituencies have candidates before starting elections.
 
 #### **Result Tabulation**  
-- **Display Results**: View vote counts, winner/loser status, or ties.  
+- **Display Results**: View election results, including winners, losers, and ties.  
 - **Reports**:  
-  - **Short Report**: Summarized constituency results.  
-  - **Detailed Report**: Comprehensive election data.
+  - **Short Report**: Overview of constituency results.  
+  - **Detailed Report**: Full election data.
 
 ---
 
 ### 👥 **Voter Panel**  
-Voters interact with the system via an intuitive interface:  
+Voters can interact with the system via a simple and intuitive interface:  
 
 #### **Voting**  
-- **Cast Vote**: Participate in NA and PA elections securely.  
+- **Cast Vote**: Participate securely in NA and PA elections.
 
 #### **Election News**  
-- **View News**: Stay updated with admin-shared election news.  
+- **View News**: Read updates shared by the admin.
 
 ---
 
@@ -64,11 +69,11 @@ Voters interact with the system via an intuitive interface:
 - **Database**: None (standalone system)
 
 ### **Security**  
-- Voter authentication ensures each CNIC casts a single vote.  
-- Admin functionalities are protected against unauthorized access.
+- Voter authentication ensures each CNIC can only vote once.  
+- Admin functionalities are restricted to authorized users only.
 
 ### **UI/UX Design**  
-- Intuitive, user-friendly interface for both Admins and Voters.
+- Designed with user-friendly interfaces for both Admin and Voter roles.
 
 ---
 
@@ -83,29 +88,34 @@ Voters interact with the system via an intuitive interface:
    Import the project into **NetBeans IDE**.
 
 3. **Run the Application**:  
-   Execute the project within NetBeans to launch the EMS system.  
+   Run the project within NetBeans to launch the EMS system.
 
 ---
 
 ## 📷 Screenshots  
 
+### **Splash Screen**  
+![Splash Screen](https://github.com/user-attachments/assets/333c462c-d414-46d1-b869-c3a6df57d9c9)
+
+### **Home Screen**  
+![Home Screen](https://github.com/user-attachments/assets/ff8762e1-0642-4188-94f3-b6a13477cce0)
+
 ### **Admin Dashboard**  
-![Admin Panel]()
+![Admin Panel](https://github.com/user-attachments/assets/09ba4555-f815-495d-9910-2e46d3a68bec)
 
 ### **Voter Panel**  
-![Voter Panel]()  
+![Voter Panel](https://github.com/user-attachments/assets/c013f40b-4a8b-46b8-99ae-2aaab2f5a281) 
 
----
+### **Voter Interface**  
+![Voter Interface](https://github.com/user-attachments/assets/8a16f3d3-689c-4f21-8769-e02c52003c52)
 
-## 📜 License  
-
-This project is licensed under the **MIT License**. See the [LICENSE](https://github.com/abdulrafayy06/ElectionsManagementSystem-EMS--Jswing-Java-Netbeans/blob/main/LICENSE) file for details.  
+### [DEMO VIDEO LINK OF PROJECT ON YOUTUBE](https://youtu.be/wXS2iXzymF8?si=KHnCjCsF8sLZNNXn)
 
 ---
 
 ## 🤝 Contributing  
 
-Contributions are welcome! Feel free to fork this repository, report issues, or suggest new features by visiting the [issues page](https://github.com/abdulrafayy06/ElectionsManagementSystem-EMS--Jswing-Java-Netbeans/issues).  
+We welcome contributions! Feel free to fork the repository, report issues, or suggest new features by visiting the [issues page](https://github.com/abdulrafayy06/ElectionsManagementSystem-EMS--Jswing-Java-Netbeans/issues).  
 
 ---
 
